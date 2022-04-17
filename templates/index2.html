@@ -1,0 +1,27 @@
+<html>
+  <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="../static/chasestyle.css">
+  </head>
+  <body>
+    <form class = "grid" action = "/quiz" method = "POST">
+      <center>
+        <label>Hello {{name}}, do you know which EECS major you would like to do?</label>
+      </center>
+      <center><input type="Submit" value="I Don't Know (Take Quiz)" class = "file_submit"></center>
+    </form>
+    <form class = "grid" action = "/ee" method = "POST">
+      <center><input type="Submit" value="Electrical Engineering" class = "file_submit"></center>
+    </form>
+    <form class = "grid" action = "/cs" method = "POST">
+      <center><input type="Submit" value="Computer Science" class = "file_submit"></center>
+    </form>
+    <form class = "grid" action = "/ce" method = "POST">
+      <center><input type="Submit" value="Computer Engineering" class = "file_submit"></center>
+    </form>
+    <form class = "grid" action = "/ic" method = "POST">
+      <center><input type="Submit" value="Interdisciplinary Computing" class = "file_submit"></center>
+    </form>
+  </body>
+</html>
